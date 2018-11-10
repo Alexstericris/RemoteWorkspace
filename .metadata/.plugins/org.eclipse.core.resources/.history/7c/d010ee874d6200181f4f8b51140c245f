@@ -1,0 +1,27 @@
+package learngui;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+
+public class gugu {
+	public static void main(String[]args) {
+	
+	
+	String en=JOptionPane.showInputDialog("Enter first numer");
+	String zn=JOptionPane.showInputDialog("Enter second number");
+	int num1= Integer.parseInt(en);
+	int num2= Integer.parseInt(zn);
+	int sum=num1+num2;
+	JOptionPane.showMessageDialog(null, "The answer is "+ sum);
+	
+	
+	
+	
+	clacla dude=new clacla();
+	dude.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	dude.setSize(1900,1000);
+	dude.setVisible(true);
+
+	
+	}
+}

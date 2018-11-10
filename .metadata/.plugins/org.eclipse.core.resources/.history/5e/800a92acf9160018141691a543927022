@@ -1,0 +1,12 @@
+import java.util.*;
+public class Ticki {
+public static final int zeile=3,spalte=3;
+public static int[][]board= new int[zeile][spalte];
+	public static void main(String[] args) {
+	Scanner sc= new Scanner(System.in);
+	System.out.println("_|_|_\n_|_|_\n | | \n");
+	System.out.println("");		
+
+	}
+
+}

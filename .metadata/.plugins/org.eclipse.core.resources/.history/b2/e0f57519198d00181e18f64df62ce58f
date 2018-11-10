@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class TextManagerMain {
+	public static void main(String[] args) {
+		
+		File file=new File("C:\\Users\\Marius\\eclipse\\java-oxygen\\eclipse\\Workspace\\TextManager\\src\\textBeispiel.txt");
+		
+		try {
+			
+			Scanner sc=new Scanner(file);
+			String ersteZeile=sc.nextLine();
+			
+			System.out.printf("Zeile: %s\n", ersteZeile);
+		}catch(IOException ex) {
+			System.out.printf("Error: %s\n",ex);
+		}
+/*
+		TextScanner textScan = new TextScanner();
+		textScan.openFile();
+		textScan.readFile();
+		textScan.closeFile();
+		
+		
+	*/	
+	}
+}

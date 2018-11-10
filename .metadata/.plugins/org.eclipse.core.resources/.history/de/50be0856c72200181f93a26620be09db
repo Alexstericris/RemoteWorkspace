@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Zaboy {
+	public static Scanner dude(char gude ) {
+		Scanner sc=new Scanner(System.in);
+   }
+   public static void main(String[]argv) {
+	   Scanner sc=new Scanner(System.in);
+	   for(int i=1;i<10;i++) {
+		  String gude="hallo";
+	  }
+   }
+}

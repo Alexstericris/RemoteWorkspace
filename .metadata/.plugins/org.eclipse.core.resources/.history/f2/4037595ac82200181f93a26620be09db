@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Zaboy {
+	public static int a;
+	public static void dude() {
+		System.out.println("Moin");
+   }
+   public static void main(String[]argv) {
+	   Scanner sc=new Scanner(System.in);
+	   a=sc.nextInt();
+	   dude();
+	   
+   sc.close();
+   }
+}

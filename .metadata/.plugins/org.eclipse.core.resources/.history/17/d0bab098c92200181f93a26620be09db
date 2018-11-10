@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Zaboy {
+	public static int a;
+	public static void dude(String str1,char[] str2) {
+       try {
+    	   str1.getChars(2,9,str2,0);
+       }catch( Exception ex) {
+    	   System.out.println("hellou");
+       }
+	}
+   public static void main(String[]argv) {
+	  String str1= new String("Gude Jungs, I love you all");
+	  char[] str2= new char[7];
+	  dude(str1 ,str2);
+   }
+}

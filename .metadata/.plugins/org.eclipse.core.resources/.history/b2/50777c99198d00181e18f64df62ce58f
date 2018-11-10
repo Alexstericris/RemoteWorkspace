@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+
+public class TextManagerMain {
+	public static void main(String[] args) {
+		
+		File file=new File("C:\\Users\\Marius\\eclipse\\java-oxygen\\eclipse\\Workspace\\TextManager\\src\\textBeispiel.txt");
+		
+		try {
+			
+			Scanner sc=new Scanner(file);
+			String erstesWort=sc.next();
+			String zweitesWort=sc.next();
+			String drittesWort=sc.next();
+		
+			
+			System.out.printf("1: %s \n", erstesWort);
+			System.out.printf("2: %s \n", zweitesWort);
+			System.out.printf("3: %s \n", drittesWort);
+
+		}catch(IOException ex) {
+			System.out.printf("Error: %s\n",ex);
+		}
+/*
+		TextScanner textScan = new TextScanner();
+		textScan.openFile();
+		textScan.readFile();
+		textScan.closeFile();
+		
+		
+	*/	
+	}
+}
