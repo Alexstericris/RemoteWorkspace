@@ -7,7 +7,7 @@ public class Test {
 	ArrayList<Pizzasorte> pslist=new ArrayList<Pizzasorte>();
 	
 	Pizzeria p1=new Pizzeria("guisto","Am gurken",pslist);
-	
+	//maddddd
 	//gude
 	Pizzasorte ps1=new Pizzasorte("Margherita");
 	p1.addPizzen(ps1);
